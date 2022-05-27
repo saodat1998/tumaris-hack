@@ -14,12 +14,12 @@
           </b-col>
           <b-col lg="3" sm="9" cols="6">
             <div class="d-flex justify-content-end">
-              <a
+              <nuxt-link
+                :to="{ name: 'login' }"
                 class="btn-solid scroll-to-request btn small consultation-btn"
-                href="tel:+998712000833"
               >
                 Sign in
-              </a>
+              </nuxt-link>
               <mobile-menu />
             </div>
           </b-col>

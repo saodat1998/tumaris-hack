@@ -8,7 +8,7 @@ export default {
   head: {
     title: 'Coys',
     htmlAttrs: {
-      lang: 'ru',
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },

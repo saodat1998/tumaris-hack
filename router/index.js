@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import { courseRoutes } from './courseRoutes'
+import { authRoutes } from './authRoutes'
 
 Vue.use(Router)
 
 export function createRouter() {
   function addLocalesToRoutes(routes) {
     const newRoutes = []
-    const locales = ['ru']
+    const locales = ['ru', 'en']
     if (Object.assign([], routes).length) {
       locales.forEach((lang) => {
         routes.forEach((item) => {
@@ -18,7 +19,7 @@ export function createRouter() {
               component: item.component,
               meta: item.meta,
             })
-          } else if (lang === 'ru') {
+          } else if (lang === 'en') {
             newRoutes.push({
               name: `${item.name}___${lang}`,
               path: item.path,
@@ -46,7 +47,10 @@ export function createRouter() {
   }
   const router = new Router({
     mode: 'history',
-    routes: [...addLocalesToRoutes(courseRoutes)],
+    routes: [
+      ...addLocalesToRoutes(courseRoutes),
+      ...addLocalesToRoutes(authRoutes),
+    ],
     linkActiveClass: 'nuxt-link-active',
   })
   // router.beforeEach((to, from, next) => {
