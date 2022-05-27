@@ -1,0 +1,50 @@
+{
+  "name": "pm-expert",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm-run-all mock:build --parallel nuxt mock:watch",
+    "nuxt": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "mock:build": "axios-mock-server --build",
+    "mock:watch": "axios-mock-server --watch"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/google-tag-manager": "^2.3.2",
+    "@nuxtjs/router": "^1.6.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.9.1",
+    "mockjs-nuxtjs": "^1.0.0",
+    "msw": "^0.35.0",
+    "nuxt": "^2.15.4",
+    "nuxt-i18n": "^6.27.0",
+    "path": "^0.12.7",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "axios-mock-server": "^0.19.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "fibers": "^5.0.0",
+    "miragejs": "^0.1.42",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.11",
+    "sass-loader": "10"
+  }
+}

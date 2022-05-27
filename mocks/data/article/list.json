@@ -1,0 +1,65 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "articles": {
+      "data": [
+        {
+          "id": 4,
+          "title": "What is Lorem Ipsum?",
+          "status": 0,
+          "categoryName": null,
+          "author": null,
+          "img": "/img/pregnancy/4.jpg",
+          "publishedAt": "2022-05-11",
+          "createdAt": "2022-05-28",
+          "updatedAt": "2022-05-28"
+        },
+        {
+          "id": 3,
+          "title": "Where does it come from?",
+          "status": 0,
+          "categoryName": null,
+          "author": null,
+          "img": "/img/pregnancy/5.jpg",
+          "publishedAt": "2022-05-25",
+          "createdAt": "2022-05-26",
+          "updatedAt": "2022-05-26"
+        },
+        {
+          "id": 2,
+          "title": "Why do we use it?",
+          "status": 0,
+          "categoryName": null,
+          "author": null,
+          "img": "/img/pregnancy/6.jpg",
+          "publishedAt": "2022-05-26",
+          "createdAt": "2022-05-26",
+          "updatedAt": "2022-05-26"
+        },
+        {
+          "id": 1,
+          "title": "Where can I get some?",
+          "status": 0,
+          "categoryName": null,
+          "author": null,
+          "img": "/img/pregnancy/2.jpg",
+          "publishedAt": "2022-05-25",
+          "createdAt": "2022-05-26",
+          "updatedAt": "2022-05-26"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 44,
+          "count": 4,
+          "per_page": 10,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

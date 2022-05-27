@@ -1,0 +1,76 @@
+{
+  "top-bar": {
+    "write_telegram": "Write us in Telegram"
+  },
+  "menu": {
+    "about_company": "About us",
+    "mission": "Mission",
+    "pma": "PMA",
+    "pm-support": "Support",
+    "pm-check-up": "CHECK UP",
+    "experience": "Experience",
+    "history": "History",
+    "facts": "Only Facts",
+    "education": "Educational courses",
+    "trainers": "Our trainers",
+    "certification_pme": "Certification",
+    "pm_test": "Online test",
+    "pmc": "PMC",
+    "services": "Services",
+    "services-map": "Service map",
+    "what_is_pmc": "Что такое PMC",
+    "team": "Team",
+    "consulting": "Consulting",
+    "outsourcing": "Outsourcing",
+    "other_services": "Other services",
+    "pmc_excellence": "PM Excellence",
+    "certification": "Certification",
+    "program_order": "Order Program",
+    "simulation_games": "Simulation",
+    "distance_courses": "Distance courses",
+    "basis_project_management": "Basics of project management",
+    "finished_courses": "Latest Courses",
+    "contacts": "Contacts"
+  },
+  "address": {
+    "city": "Tashkent",
+    "address": "Tashkent, 100060, Sayram 44"
+  },
+  "about": {
+    "title": "About us",
+    "about_company": "About our services",
+    "detail": "Details",
+    "company": "Company",
+    "company_mission": "Unique knowledge is the future: innovative ideas, new approaches, methods and strategies for project management",
+    "content": "PM Expert is a leader in the field of project management training and certification of managers in Uzbekistan, also provides professional project management services, programs and project portfolios in the following areas: outsourcing (external project management of the customer), consulting (implementation of project management in the customer’s company), training (full-time and remote trainings on project management) and certification (assessment of specialists and audit of project management systems in companies).",
+    "description": "Project management training and certification of specialists in project management at PM Expert"
+  },
+  "faq": {
+    "title": "Frequently asked questions"
+  },
+  "course": {
+    "title": "Courses",
+    "all_courses": "All courses"
+  },
+  "news": {
+    "title": "Publications",
+    "all_news": "All"
+  },
+  "services": {
+    "title": "Services",
+    "all_services": "All services"
+  },
+  "finished_courses": {
+    "title": "Latest courses",
+    "all_finished_courses": "All courses"
+  },
+  "partners": {
+    "title": "Our partners"
+  },
+  "footer": {
+    "our_contacts": "Contacts",
+    "know_first": "Be first to know",
+    "subscribe_text": "Subscribe to receive information about the most interesting events, new courses, promotions and discounts.",
+    "subscribe_news": "Newsletter subscription"
+  }
+}

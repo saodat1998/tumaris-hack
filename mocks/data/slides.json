@@ -1,0 +1,49 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OKa",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 3,
+          "title": "",
+          "status": 1,
+          "author": null,
+          "type": "SLIDER",
+          "mini_desc": "Project management",
+          "img": "/img/pregnancy/1.jpg",
+          "mobile_img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/d274a33fce3a81abd8a2a1a3e737781b.png",
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-24",
+          "updatedAt": "2021-10-10"
+        },
+        {
+          "id": 2,
+          "title": "",
+          "status": 1,
+          "author": null,
+          "type": "SLIDER",
+          "mini_desc": "Decision-making",
+          "img": "/img/pregnancy/3.jpg",
+          "mobile_img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/8dc4666d3cafe23944caed81871d48c4.png",
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-24",
+          "updatedAt": "2021-10-10"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 2,
+          "count": 2,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

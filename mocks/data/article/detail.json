@@ -1,0 +1,20 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "articles": {
+      "id": 4,
+      "slug": "98uhzwqona",
+      "author": "John Doe",
+      "published_at": "2021-05-11",
+      "img": "https://picsum.photos/800/300",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "mini_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci commodi consequuntur corporis deleniti dolores ducimus explicabo harum illum laborum molestiae molestias nam.",
+      "content": "\n          <p>\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci commodi consequuntur corporis deleniti dolores ducimus explicabo harum illum laborum molestiae molestias nam, obcaecati odit officia quidem recusandae, repellat repellendus repudiandae rerum, sapiente similique totam unde ut voluptas voluptates!\n          </p>\n          <p>\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias dolore doloremque et exercitationem expedita hic ipsa optio perferendis quidem!\n          </p>\n          <div>\n            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto eius inventore nam quasi, quod sapiente sint ullam voluptas. Deleniti laudantium minus nemo nostrum optio sint totam vel? Incidunt, quibusdam!</span>\n          </div>\n          <div><h5>Lorem ipsum dolor sit amet.</h5>\n          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi dolorem facere iste quod suscipit! Accusamus architecto autem dicta ipsum iste nisi officia praesentium soluta temporibus vitae? Ab dolores esse excepturi, modi officia quo. Ad adipisci cumque dolorem eaque eveniet, excepturi libero maxime minus nesciunt quisquam quo quos reprehenderit sequi sit tempore tenetur voluptate voluptatum.</p>\n</div>",
+      "url": "\/categories\/\/98uhzwqona",
+      "category_name": null,
+      "category_slug": null
+    }
+  }
+}

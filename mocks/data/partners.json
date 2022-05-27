@@ -1,0 +1,91 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 61,
+          "title": "https:\/\/nestone.uz\/",
+          "status": 1,
+          "author": null,
+          "type": "TECH",
+          "mini_desc": "",
+          "img": "/img/partners/food.png",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-29",
+          "updatedAt": "2021-05-29"
+        },
+        {
+          "id": 60,
+          "title": "https:\/\/sello.uz",
+          "status": 1,
+          "author": null,
+          "type": "TECH",
+          "mini_desc": "",
+          "img": "/img/partners/fund.png",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-28",
+          "updatedAt": "2021-05-29"
+        },
+        {
+          "id": 31,
+          "title": "",
+          "status": 1,
+          "author": null,
+          "type": "TECH",
+          "mini_desc": "",
+          "img": "/img/partners/unicef.png",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-26",
+          "updatedAt": "2021-05-26"
+        },
+        {
+          "id": 30,
+          "title": "",
+          "status": 1,
+          "author": null,
+          "type": "TECH",
+          "mini_desc": "",
+          "img": "/img/partners/maternal.png",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-26",
+          "updatedAt": "2021-05-26"
+        },
+        {
+          "id": 29,
+          "title": "",
+          "status": 1,
+          "author": null,
+          "type": "TECH",
+          "mini_desc": "",
+          "img": "/img/partners/violence.png",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-26",
+          "updatedAt": "2021-05-26"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 8,
+          "count": 8,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

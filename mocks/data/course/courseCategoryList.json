@@ -1,0 +1,82 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "categories": [
+      {
+        "id": 3,
+        "slug": "olblrj0v1k",
+        "status": 1,
+        "ord": null,
+        "parent_id": null,
+        "type": "COURSE",
+        "img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/2c4a6d1073abaffd457ee7a3fe131a0d.jpg",
+        "name": "\u0414\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043a\u0443\u0440\u0441\u044b \u043f\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438",
+        "lang": "ru",
+        "translations": {
+          "ru": {
+            "name": "\u0414\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043a\u0443\u0440\u0441\u044b \u043f\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438"
+          },
+          "uz": {
+            "name": "Loyihalarni boshqarish bo'yicha masofaviy o'qitish kurslari"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "slug": "hzah2gpnx1",
+        "status": 1,
+        "ord": null,
+        "parent_id": null,
+        "type": "COURSE",
+        "img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/58dd22b691d6661e2bbd59eb45592156.jpg",
+        "name": "\u041e\u0441\u043d\u043e\u0432\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438",
+        "lang": "ru",
+        "translations": {
+          "ru": {
+            "name": "\u041e\u0441\u043d\u043e\u0432\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u043c\u0438"
+          },
+          "uz": {
+            "name": "Loyihani boshqarish asoslari"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "slug": "hpmcg09juf",
+        "status": 1,
+        "ord": null,
+        "parent_id": null,
+        "type": "COURSE",
+        "img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/b4234c3056a5666716ed751d1ad7ecb1.jpg",
+        "name": "\u0421\u0438\u043c\u0443\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0434\u0435\u043b\u043e\u0432\u044b\u0435 \u0438\u0433\u0440\u044b",
+        "lang": "ru",
+        "translations": {
+          "ru": {
+            "name": "\u0421\u0438\u043c\u0443\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0434\u0435\u043b\u043e\u0432\u044b\u0435 \u0438\u0433\u0440\u044b"
+          },
+          "uz": {
+            "name": "Biznes simulyatsiya o'yinlari"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "slug": "cyfucvqnl1",
+        "status": 1,
+        "ord": null,
+        "parent_id": null,
+        "type": "COURSE",
+        "img": "https:\/\/api.pmexpert.uz\/storage\/img\/content\/79b35550610a902b49a4acaed55209e5.jpg",
+        "name": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u043d\u0430 \u0437\u0430\u043a\u0430\u0437",
+        "lang": "ru",
+        "translations": {
+          "ru": {
+            "name": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u043d\u0430 \u0437\u0430\u043a\u0430\u0437"
+          }
+        }
+      }
+    ]
+  }
+}

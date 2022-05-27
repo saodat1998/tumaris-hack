@@ -1,0 +1,35 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 57,
+          "title": "John Doe",
+          "status": 1,
+          "author": null,
+          "type": "MANAGEMENT",
+          "mini_desc": "PMP2, CSPM, \u0411\u0438\u0437\u043d\u0435\u0441-\u0442\u0440\u0435\u043d\u0435\u0440 PM Expert",
+          "img": "/img/people/big-boss.jfif",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-28",
+          "updatedAt": "2021-05-28"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 1,
+          "count": 1,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

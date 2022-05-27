@@ -1,0 +1,77 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 11,
+          "title": "How to knit for beginners",
+          "status": 1,
+          "author": null,
+          "type": "PROJECT",
+          "mini_desc": "Learn how to knit for total beginners with this detailed knitting guide. Using video and photo tutorials, learn how to knit step by step through repetition.",
+          "img": "/img/courses/1.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2022-10-11",
+          "createdAt": "2022-05-24",
+          "date": "2022-08-02"
+        },
+        {
+          "id": 10,
+          "title": "Learn how to sew and earn!",
+          "status": 1,
+          "author": null,
+          "type": "PROJECT",
+          "mini_desc": "Learn How to Sew. Sewing is one of the most critical disciplines in fashion design. Our sewing video lessons cover everything from learning how to thread a ...",
+          "img": "/img/courses/2.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2022-10-11",
+          "createdAt": "2022-05-24",
+          "date": "2022-08-02"
+        },
+        {
+          "id": 9,
+          "title": "Learn Design with Online Courses, Classes, & Lessons",
+          "status": 1,
+          "author": null,
+          "type": "PROJECT",
+          "mini_desc": "Take online design courses from top schools and institutions. Learn design skills and concepts to advance your education and career with us today!",
+          "img": "/img/courses/3.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2022-10-11",
+          "createdAt": "2022-05-24",
+          "date": "2022-10-10"
+        },
+        {
+          "id": 7,
+          "title": "The Best Knitted Toy Patterns for Beginners",
+          "status": 1,
+          "author": null,
+          "type": "PROJECT",
+          "mini_desc": "Are you looking for toy patterns now because you're only just learning about shaped knitting and you'd like to get a nice head start for Christmas? ",
+          "img": "/img/courses/4.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2022-10-11",
+          "createdAt": "2022-05-24",
+          "date": "2022-08-02"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 4,
+          "count": 4,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

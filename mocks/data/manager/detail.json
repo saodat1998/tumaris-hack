@@ -1,0 +1,26 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "id": 57,
+      "advantages": null,
+      "questions": null,
+      "img": "/img/people/big-boss.jfif",
+      "status": 1,
+      "type": "MANAGEMENT",
+      "published_at": null,
+      "created_at": "2021-05-28 15:23:48",
+      "updated_at": "2021-05-28 15:23:48",
+      "category_id": null,
+      "file": null,
+      "mobile_img": null,
+      "title": "John Doe",
+      "title_en": "",
+      "mini_desc": "PMP, CSPM, \u0411\u0438\u0437\u043d\u0435\u0441-\u0442\u0440\u0435\u043d\u0435\u0440 PM Expert",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, atque consectetur cumque earum enim ex incidunt minima mollitia suscipit voluptates? Ab aliquam, consequuntur cum maiores nobis saepe tempore velit voluptas voluptatem voluptates. At earum eligendi est hic, iusto molestiae odit perspiciatis praesentium quo reiciendis sed sunt, unde vero, voluptate voluptatum? Dolorem eaque enim iure repudiandae veritatis. A cum cupiditate, dolore dolorem eius fuga fugit in laudantium mollitia officia optio porro quia, ullam. Alias distinctio doloribus impedit nostrum odit sint unde.",
+      "technologies": ""
+    }
+  }
+}

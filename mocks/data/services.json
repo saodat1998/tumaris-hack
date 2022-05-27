@@ -1,0 +1,49 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 25,
+          "title": "Outsourcing",
+          "status": 1,
+          "author": null,
+          "type": "SERVICE",
+          "mini_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tempus arcu. Sed ultrices ante ut tortor egestas aliquam. Donec facilisis sagittis quam, a facilisis diam malesuada nec. Nunc blandit odio quis velit commodo, et faucibus velit vehicula. Mauris et pulvinar dolor.",
+          "img": "https://picsum.photos/802/300",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-26",
+          "updatedAt": "2021-05-26"
+        },
+        {
+          "id": 24,
+          "title": "Consulting",
+          "status": 1,
+          "author": null,
+          "type": "SERVICE",
+          "mini_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tempus arcu. Sed ultrices ante ut tortor egestas aliquam. Donec facilisis sagittis quam, a facilisis diam malesuada nec. Nunc blandit odio quis velit commodo, et faucibus velit vehicula. Mauris et pulvinar dolor.",
+          "img": "https://picsum.photos/801/300",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-26",
+          "updatedAt": "2021-05-26"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 2,
+          "count": 2,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}

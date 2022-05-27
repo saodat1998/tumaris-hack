@@ -1,0 +1,49 @@
+{
+  "code": 20000,
+  "type": "success",
+  "message": "OK",
+  "payload": {
+    "newspaper": {
+      "data": [
+        {
+          "id": 57,
+          "title": "John Doe",
+          "status": 1,
+          "author": null,
+          "type": "MANAGEMENT",
+          "mini_desc": "Business Expert",
+          "img": "/img/people/1.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-28",
+          "updatedAt": "2021-05-28"
+        },
+        {
+          "id": 57,
+          "title": "John Doe",
+          "status": 1,
+          "author": null,
+          "type": "MANAGEMENT",
+          "mini_desc": "Business Expert",
+          "img": "/img/people/2.jpg",
+          "mobile_img": null,
+          "file": null,
+          "publishedAt": "2021-10-11",
+          "createdAt": "2021-05-28",
+          "updatedAt": "2021-05-28"
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "total": 1,
+          "count": 1,
+          "per_page": 28,
+          "current_page": 1,
+          "total_pages": 1,
+          "links": {}
+        }
+      }
+    }
+  }
+}
