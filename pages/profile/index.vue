@@ -1,6 +1,6 @@
 <template>
-  <div style="padding-left: 20px">
-    <h4>Profile</h4>
+  <div style="padding-left: 40px">
+    <h3>Profile</h3>
     <div>
       <b-form-group
         v-slot="{ ariaDescribedby }"
@@ -81,17 +81,43 @@
                 v-model="wanted"
                 :aria-describedby="ariaDescribedby"
                 name="some-radios"
-                value="A"
+                value="course"
                 >I want to take a course</b-form-radio
               >
               <b-form-radio
                 v-model="wanted"
                 :aria-describedby="ariaDescribedby"
                 name="some-radios"
-                value="B"
+                value="work"
                 >I want to work</b-form-radio
               >
             </b-form-group>
+            <div v-if="wanted === 'course'" class="row">
+              <div class="col-md-8">
+                <label>What kind of course do you want to take?</label>
+                <div class="form-group">
+                  <input
+                    v-model="form.type_of_course"
+                    type="text"
+                    placeholder="soap products"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+            <div v-if="wanted === 'work'" class="row">
+              <div class="col-md-8">
+                <label>What kind of work can you do?</label>
+                <div class="form-group">
+                  <input
+                    v-model="form.type_of_job"
+                    type="text"
+                    placeholder="soap products"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
             <div><button class="send-btn">Send</button></div>
           </div>
         </div>
@@ -155,17 +181,43 @@
                 v-model="wanted"
                 :aria-describedby="ariaDescribedby"
                 name="some-radios"
-                value="A"
+                value="course"
                 >I want to take a course</b-form-radio
               >
               <b-form-radio
                 v-model="wanted"
                 :aria-describedby="ariaDescribedby"
                 name="some-radios"
-                value="B"
+                value="work"
                 >I want to work</b-form-radio
               >
             </b-form-group>
+            <div v-if="wanted === 'course'" class="row">
+              <div class="col-md-8">
+                <label>What kind of course do you want to take?</label>
+                <div class="form-group">
+                  <input
+                    v-model="form.type_of_course"
+                    type="text"
+                    placeholder="soap products"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+            <div v-if="wanted === 'work'" class="row">
+              <div class="col-md-8">
+                <label>What kind of work can you do?</label>
+                <div class="form-group">
+                  <input
+                    v-model="form.type_of_job"
+                    type="text"
+                    placeholder="soap products"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
             <div><button class="send-btn">Send</button></div>
           </div>
         </div>
@@ -178,13 +230,15 @@ export default {
   layout: 'profile',
   data() {
     return {
-      selected: '',
+      selected: 'A',
       wanted: '',
       form: {
         reference: '',
         passport_number: '',
         passport_seria: '',
         baby_old: '',
+        type_of_course: '',
+        type_of_job: '',
       },
     }
   },
