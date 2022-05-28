@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { courseRoutes } from './courseRoutes'
 import { authRoutes } from './authRoutes'
+import { profileRouter } from './profileRouter'
 
 Vue.use(Router)
 
@@ -50,6 +51,7 @@ export function createRouter() {
     routes: [
       ...addLocalesToRoutes(courseRoutes),
       ...addLocalesToRoutes(authRoutes),
+      ...addLocalesToRoutes(profileRouter),
     ],
     linkActiveClass: 'nuxt-link-active',
   })

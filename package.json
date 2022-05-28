@@ -18,15 +18,18 @@
     "@nuxtjs/google-tag-manager": "^2.3.2",
     "@nuxtjs/router": "^1.6.1",
     "@nuxtjs/style-resources": "^1.0.0",
+    "@vue/composition-api": "^1.6.2",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
+    "chart.js": "^3.8.0",
     "core-js": "^3.9.1",
     "mockjs-nuxtjs": "^1.0.0",
     "msw": "^0.35.0",
     "nuxt": "^2.15.4",
     "nuxt-i18n": "^6.27.0",
     "path": "^0.12.7",
+    "vue-chart-3": "^2.1.2",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {

@@ -18,6 +18,7 @@
     border-radius: 20px;
     width: 500px;
     margin-left: auto;
+    margin-right: auto;
     padding: 20px;
   }
 }

@@ -15,6 +15,13 @@
           <b-col lg="3" sm="9" cols="6">
             <div class="d-flex justify-content-end">
               <nuxt-link
+                :to="{ name: 'register' }"
+                style="margin-right: 10px"
+                class="btn-solid scroll-to-request btn small consultation-btn"
+              >
+                Sign up
+              </nuxt-link>
+              <nuxt-link
                 :to="{ name: 'login' }"
                 class="btn-solid scroll-to-request btn small consultation-btn"
               >
