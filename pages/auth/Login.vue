@@ -46,7 +46,6 @@ export default {
   methods: {
     onSubmit(event) {
       event.preventDefault()
-      alert(JSON.stringify(this.form))
       this.$router.push('balance')
     },
     onReset(event) {
