@@ -1,21 +1,22 @@
 <template>
   <div style="padding-left: 20px">
-    <h4>Balance</h4>
-    <div>
-      <p style="font-size: 18px">Your balance: 0 USD</p>
-      <p style="font-size: 18px">Your frozen money: 0 USD</p>
-      <p style="font-size: 20px; font-weight: 700">START earn with me!!!</p>
-    </div>
-    <courses-list />
+    <h4>Your frozen balance</h4>
+    <wallet />
+    <b-card>
+      <h4>Income chart (in dollars $)</h4>
+      <LineChart />
+    </b-card>
     <div></div>
   </div>
 </template>
 
 <script>
-import CoursesList from '~/components/sections/CoursesList'
+import LineChart from '~/components/charts/Line'
+import Wallet from '~/components/profile/Wallet'
 export default {
   components: {
-    CoursesList,
+    LineChart,
+    Wallet,
   },
   layout: 'profile',
 }

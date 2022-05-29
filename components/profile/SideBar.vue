@@ -14,10 +14,16 @@
     >
       <div class="px-3 py-2">
         <div class="profile-style">
-          <nuxt-link to="profile"> Profile </nuxt-link>
+          <nuxt-link :to="{ name: 'profile' }"> Profile </nuxt-link>
         </div>
         <div class="profile-style">
-          <nuxt-link to="balance"> Your balance </nuxt-link>
+          <nuxt-link :to="{ name: 'balance' }"> Balance </nuxt-link>
+        </div>
+        <div class="profile-style">
+          <nuxt-link :to="{ name: 'profile_courses' }"> Courses </nuxt-link>
+        </div>
+        <div class="profile-style">
+          <nuxt-link to="balance"> Tasks </nuxt-link>
         </div>
       </div>
     </b-sidebar>

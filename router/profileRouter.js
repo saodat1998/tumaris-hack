@@ -11,4 +11,9 @@ export const profileRouter = [
     component: load('profile/balance'),
     name: 'balance',
   },
+  {
+    path: '/profile/courses',
+    component: load('profile/courses'),
+    name: 'profile_courses',
+  },
 ]

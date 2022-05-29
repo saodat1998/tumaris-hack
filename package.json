@@ -30,6 +30,7 @@
     "nuxt-i18n": "^6.27.0",
     "path": "^0.12.7",
     "vue-chart-3": "^2.1.2",
+    "vue-chartjs": "^4.1.1",
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {

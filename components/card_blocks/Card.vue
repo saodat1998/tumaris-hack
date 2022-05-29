@@ -13,6 +13,25 @@
       <div v-if="item.date" class="card__date">
         {{ item.date }}
       </div>
+      <div v-if="progress">
+        <b-progress
+          height="25px"
+          class="w-100 mb-3"
+          value="75"
+          max="100"
+          show-progress
+          animated
+        >
+          <b-progress-bar :value="75">
+            <span>Done: <strong>75%</strong></span>
+          </b-progress-bar>
+        </b-progress>
+        <div class="d-flex justify-content-end">
+          <nuxt-link :to="'/courses/' + item.id">
+            <b-button variant="primary">Continue</b-button>
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </b-card>
 </template>
@@ -23,6 +42,10 @@ export default {
     item: {
       required: true,
       type: [Object, Array],
+    },
+    progress: {
+      type: Boolean,
+      default: false,
     },
   },
 }
